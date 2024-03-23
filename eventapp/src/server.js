@@ -48,7 +48,7 @@ const events = [
   },
   {
     id: 5,
-    title: 'Curso de Diseño UX/UI',
+    title: 'Curso de Diseño Web UX/UI',
     description: 'Aprende los principios fundamentales del diseño de experiencia de usuario e interfaz de usuario.',
     date: '2024-05-15',
     location: 'Escuela de Diseño Digital',
@@ -81,6 +81,13 @@ app.post('/register', (req, res) => {
   // Incrementa el contador de registrados en el evento
   event.registered++;
   res.json({ message: 'Usuario registrado en el evento exitosamente' });
+});
+
+// Ruta para obtener los eventos próximos
+app.get('/upcoming-events', (req, res) => {
+  const currentDate = new Date();
+  const upcomingEvents = events.filter(event => new Date(event.date) >= currentDate);
+  res.json(upcomingEvents);
 });
 
 // Inicia el servidor en el puerto 5000
