@@ -1,0 +1,76 @@
+/* RegistrationForm.css */
+.registration-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Efecto de vidrio */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borde semi-transparente */
+  }
+  
+  .registration-form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .registration-form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .registration-form-container button:hover {
+    background-color: #0056b3;
+  }
+  .submit-register{
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .submit-register:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  .submit-register:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+  } 
+  @media (max-width: 480px) {
+    .registration-form-container {
+      max-width: 300px;
+    }
+  }
+  
