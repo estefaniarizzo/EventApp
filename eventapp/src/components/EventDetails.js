@@ -17,16 +17,21 @@ const EventDetails = ({ event, onClose }) => {
     }
   };
     return (
+      <>
+      
       <div className="event-details">
-        <h2>{event.title}</h2>
-        <p>{event.description}</p>
-        <p><strong>Fecha:</strong> {event.date}</p>
-        <p><strong>Ubicación:</strong> {event.location}</p>
-        <p><strong>Capacidad:</strong> {event.capacity}</p>
-        <p><strong>Registrados:</strong> {event.registered}</p>
+         <button  className='button' onClick={onClose}>Regresar</button>
+         <br/>
+         <br/>
+        <h2 style={{marginLeft:'20px'}} >{event.title}</h2>
+        <p style={{marginLeft:'20px'}}>{event.description}</p>
+        <p  style={{marginLeft:'20px'}}><strong>Fecha:</strong> {event.date}</p>
+        <p  style={{marginLeft:'20px'}}><strong>Ubicación:</strong> {event.location}</p>
+        <p  style={{marginLeft:'20px'}}><strong>Capacidad:</strong> {event.capacity}</p>
+        <p  style={{marginLeft:'20px'}}><strong>Registrados:</strong> {event.registered}</p>
+       
         <RegistrationForm event={event} onRegister={handleRegistration} />
-        <button onClick={onClose}>Regresar</button>
-      </div>
+      </div></>
     );
   };
 

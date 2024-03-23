@@ -1,15 +1,31 @@
 /* Estilo para los detalles del evento */
 .event-details {
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    padding: 20px;
+  background-color: #eeeeee;
+  border-radius: 8px;
+  padding: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.event-details h2 {
+  margin-top: 0;
+}
+
+.event-details p {
+  margin-bottom: 10px;
+}
+
+.regreso {
+  margin-left: 25px;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-20px);
   }
-  
-  .event-details h2 {
-    margin-top: 0;
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  .event-details p {
-    margin-bottom: 10px;
-  }
-  
+}
