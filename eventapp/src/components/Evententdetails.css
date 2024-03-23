@@ -1,0 +1,15 @@
+/* Estilo para los detalles del evento */
+.event-details {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .event-details h2 {
+    margin-top: 0;
+  }
+  
+  .event-details p {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,58 @@
+/* Estilo de la tarjeta de evento */
+.card {
+  width: 300px;
+  height: 254px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+.event-card {
+  background: rgb(5, 6, 73);
+  border-radius: 17px;
+  width: 87%;
+  height: 84%;
+  }
+  
+  .event-card h2 {
+    margin-top: 0;
+  }
+  
+  .event-card p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+ 
+  button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+  }
+  
+  button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+  }
+  /* Estilos para hacer la tarjeta responsive */
+  @media only screen and (max-width: 600px) {
+    .event-card {
+      max-width: 300px; /* Reducir el ancho máximo en pantallas más pequeñas */
+    }
+  }
+  
