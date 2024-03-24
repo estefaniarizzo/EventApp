@@ -2,6 +2,9 @@
 Este proyecto es una plataforma de gestión de eventos desarrollada utilizando React. Permite a los usuarios ver detalles sobre los eventos, registrarse para asistir a eventos y recibir notificaciones sobre eventos próximos.
 ![image](https://github.com/estefaniarizzo/EventApp/assets/72713520/9f9d8a36-8824-441d-8513-bd14d4330d0d)
 
+# Link de video:
+
+https://drive.google.com/file/d/1FUTKYKLEeRDIuIPtk32Hkb-c_zO8VHN2/view?usp=sharing
 
 # Instalación
 Clona este repositorio en tu máquina local utilizando el siguiente comando:
