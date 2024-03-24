@@ -24,22 +24,19 @@ Instala las dependencias del proyecto utilizando npm o yarn:
 
 Copy code
 npm install
-o
 
-Copy code
-yarn install
 # Configuración
 No se requiere ninguna configuración adicional para ejecutar el proyecto.
 
 # Ejecución
-Una vez que hayas clonado el repositorio y instalado las dependencias, puedes ejecutar el proyecto con el siguiente comando:
+Una vez que hayas clonado el repositorio y instalado las dependencias, puedes ejecutar el proyecto con el siguiente comando en la carpeta EVENTAPP:
 
 
 npm start
 
-o
+y tambien en la carpeta src en otra terminal utiliza el siguiente comando para traer los datos:
 
-yarn start
+node server.js
 
 Esto iniciará la aplicación en tu navegador. Si no se abre automáticamente, puedes acceder a ella en http://localhost:3000.
 
